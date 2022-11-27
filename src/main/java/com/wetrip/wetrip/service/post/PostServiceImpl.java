@@ -15,7 +15,6 @@ public class PostServiceImpl implements PostService{
     @Autowired
     private final PostRepository postRepository;
 
-
     @Override
     public PostJoinResponseDto writePost(PostJoinRequestDto postJoinRequestDto) {
         Post post = postJoinRequestDto.toEntity();
