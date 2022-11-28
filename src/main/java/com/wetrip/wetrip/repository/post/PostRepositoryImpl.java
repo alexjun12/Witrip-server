@@ -28,9 +28,9 @@ public class PostRepositoryImpl implements PostRepository {
     }
 
     @Override
-    public Optional<Post> findById(String id) {
-        List<Post> result = em.createQuery("select p from Post p where p.userId = :id",Post.class)
-                .setParameter("id",id)
+    public Optional<Post> findByUserId(String userId) {
+        List<Post> result = em.createQuery("select p from Post p where p.userId = :userId",Post.class)
+                .setParameter("userId",userId)
                 .getResultList();
 
         return result.stream().findAny();

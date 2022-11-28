@@ -8,5 +8,6 @@ import java.util.Optional;
 @Repository
 public interface PostRepository {
     Post join(Post post);
-    Optional<Post> findById(String id);
+
+    Optional<Post> findByUserId(String userId);
 }

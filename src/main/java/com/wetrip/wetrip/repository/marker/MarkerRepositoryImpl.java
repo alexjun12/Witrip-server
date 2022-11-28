@@ -6,6 +6,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.sql.DataSource;
+import java.util.List;
+import java.util.Optional;
 
 @Repository
 @Transactional
@@ -22,5 +24,14 @@ public class MarkerRepositoryImpl implements MarkerRepository{
     public Marker join(Marker marker) {
         em.persist(marker);
         return marker;
+    }
+
+    @Override
+    public Optional<Marker> findByPostId(Long postId) {
+        List<Marker> result = em.createQuery("select m from Marker m where m.postId = :postId",Marker.class)
+                .setParameter("postId",postId)
+                .getResultList();
+
+        return result.stream().findAny();
     }
 }
