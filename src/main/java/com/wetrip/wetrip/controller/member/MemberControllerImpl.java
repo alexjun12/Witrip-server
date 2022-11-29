@@ -23,6 +23,7 @@ public class MemberControllerImpl implements MemberController{
     @ResponseBody
     public MemberJoinResponseDto signIn(@RequestBody MemberJoinRequestDto memberJoinRequestDto) {
         return memberService.signIn(memberJoinRequestDto);
+
     }
 
     @Override
