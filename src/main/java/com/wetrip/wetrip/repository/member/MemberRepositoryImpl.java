@@ -41,4 +41,15 @@ public class MemberRepositoryImpl implements MemberRepository{
 
         return result.stream().findAny();
     }
+
+    @Override
+    public Optional<Member> findByIdAndPassword(String id, String password) {
+        List<Member> result = em.createQuery("select m from Member m where m.id = :id and m.password = :password",Member.class)
+                .setParameter("id",id)
+                .setParameter("password",password)
+                .getResultList();
+
+        return result.stream().findAny();
+    }
+
 }
