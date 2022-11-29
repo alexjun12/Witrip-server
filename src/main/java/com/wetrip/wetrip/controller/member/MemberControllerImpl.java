@@ -1,7 +1,9 @@
 package com.wetrip.wetrip.controller.member;
 
 import com.wetrip.wetrip.dto.member.request.MemberJoinRequestDto;
+import com.wetrip.wetrip.dto.member.request.MemberLoginRequestDto;
 import com.wetrip.wetrip.dto.member.response.MemberJoinResponseDto;
+import com.wetrip.wetrip.dto.member.response.MemberLoginResponseDto;
 import com.wetrip.wetrip.service.member.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,5 +23,12 @@ public class MemberControllerImpl implements MemberController{
     @ResponseBody
     public MemberJoinResponseDto signIn(@RequestBody MemberJoinRequestDto memberJoinRequestDto) {
         return memberService.signIn(memberJoinRequestDto);
+    }
+
+    @Override
+    @PostMapping(value="/member/logIn")
+    @ResponseBody
+    public MemberLoginResponseDto logIn(@RequestBody MemberLoginRequestDto memberLoginRequestDto) {
+        return memberService.logIn(memberLoginRequestDto);
     }
 }
