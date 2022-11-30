@@ -21,6 +21,7 @@ public class MemberServiceImpl implements MemberService{
 
     @Override
     public MemberJoinResponseDto signIn(MemberJoinRequestDto memberJoinRequestDto) {
+        memberRepository.findById(memberJoinRequestDto.getId()).ifPresent(m -> {throw new CustomException(ErrorCode.ALREADY_JOINED_USER);});
         Member member = memberJoinRequestDto.toEntity();
         Member result = memberRepository.join(member);
         return new MemberJoinResponseDto(result.getName());
