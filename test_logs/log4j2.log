@@ -1,45 +1,108 @@
-2022-12-04 00:02:26  INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-12-04 00:02:26  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-2022-12-04 00:02:26  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-2022-12-04 00:02:32  INFO [com.wetrip.wetrip.WetripApplication] Starting WetripApplication using Java 16.0.1 on DESKTOP-70SDGRQ with PID 15884 (C:\Users\82108\Wetrip-server\build\classes\java\main started by 82108 in C:\Users\82108\Wetrip-server)
-2022-12-04 00:02:32  INFO [com.wetrip.wetrip.WetripApplication] No active profile set, falling back to 1 default profile: "default"
-2022-12-04 00:02:33  INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-12-04 00:02:33  INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 30 ms. Found 0 JPA repository interfaces.
-2022-12-04 00:02:33  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
-2022-12-04 00:02:34  INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1286 ms
-2022-12-04 00:02:34  INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-12-04 00:02:34  INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.14.Final
-2022-12-04 00:02:34  INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-12-04 00:02:34  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
-2022-12-04 00:02:34  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
-2022-12-04 00:02:34  INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-12-04 00:02:35  INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-12-04 00:02:35  INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-12-04 00:02:35  WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-12-04 00:02:35  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-04 00:02:35  INFO [com.wetrip.wetrip.WetripApplication] Started WetripApplication in 3.498 seconds (JVM running for 4.34)
-2022-12-04 00:03:27  INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
-2022-12-04 00:03:27  INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
-2022-12-04 00:04:04  INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-12-04 00:04:04  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-2022-12-04 00:04:04  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-2022-12-04 16:24:31  INFO [com.wetrip.wetrip.WetripApplication] Starting WetripApplication using Java 11.0.15.1 on JUNYOUNGui-MacBookPro.local with PID 4057 (/Users/junyoungcho/Documents/Wetrip-server/build/classes/java/main started by junyoungcho in /Users/junyoungcho/Documents/Wetrip-server)
-2022-12-04 16:24:31  INFO [com.wetrip.wetrip.WetripApplication] No active profile set, falling back to 1 default profile: "default"
-2022-12-04 16:24:32  INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-12-04 16:24:32  INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
-2022-12-04 16:24:33  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
-2022-12-04 16:24:33  INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1688 ms
-2022-12-04 16:24:33  INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-12-04 16:24:33  INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.14.Final
-2022-12-04 16:24:33  INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-12-04 16:24:33  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
-2022-12-04 16:24:34  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
-2022-12-04 16:24:34  INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-12-04 16:24:34  INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-12-04 16:24:34  INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-12-04 16:24:34  WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-12-04 16:24:35  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-04 16:24:35  INFO [com.wetrip.wetrip.WetripApplication] Started WetripApplication in 4.071 seconds (JVM running for 5.171)
-2022-12-04 16:24:38  INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-12-04 16:24:38  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-2022-12-04 16:24:38  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2022-12-05 19:07:03  INFO [com.wetrip.wetrip.WetripApplication] Starting WetripApplication using Java 11.0.15.1 on JUNYOUNGui-MacBookPro.local with PID 1665 (/Users/junyoungcho/Documents/Wetrip-server/build/classes/java/main started by junyoungcho in /Users/junyoungcho/Documents/Wetrip-server)
+2022-12-05 19:07:03  INFO [com.wetrip.wetrip.WetripApplication] No active profile set, falling back to 1 default profile: "default"
+2022-12-05 19:07:04  INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-05 19:07:04  INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2022-12-05 19:07:04  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+2022-12-05 19:07:04  INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1506 ms
+2022-12-05 19:07:05  INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-05 19:07:05  INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-05 19:07:05  INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-05 19:07:05  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-12-05 19:07:05  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-12-05 19:07:05  INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-05 19:07:06  INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-05 19:07:06  INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-05 19:07:06  WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-05 19:07:06  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-05 19:07:06  INFO [com.wetrip.wetrip.WetripApplication] Started WetripApplication in 3.739 seconds (JVM running for 4.895)
+2022-12-05 19:07:16  INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2022-12-05 19:07:16  INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
+2022-12-05 19:10:20 ERROR [org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator] Closing session due to exception for StandardWebSocketSession[id=e1a0a910-9da8-570d-6fe8-b5f0037971cf, uri=ws://211.62.179.135:8080/ws/chat]
+com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+ at [Source: (String)"{
+  "type":"ENTER",
+  "roomId":"07a1b980-4b20-4bf1-b348-b73c87723f3a,
+  "sender":"cho",
+  "message":"asd"
+}"; line: 3, column: 51] (through reference chain: com.wetrip.wetrip.dto.ChatMessage.ChatMessageDto["roomId"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:390) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:349) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.wrapAndThrow(BeanDeserializerBase.java:1822) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:404) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:195) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4593) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3548) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3516) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.wetrip.wetrip.WebSocket.WebSocketHandler.handleTextMessage(WebSocketHandler.java:22) ~[main/:?]
+	at org.springframework.web.socket.handler.AbstractWebSocketHandler.handleMessage(AbstractWebSocketHandler.java:43) ~[spring-websocket-5.3.24.jar:5.3.24]
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.handleMessage(WebSocketHandlerDecorator.java:75) ~[spring-websocket-5.3.24.jar:5.3.24]
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.handleMessage(LoggingWebSocketHandlerDecorator.java:56) ~[spring-websocket-5.3.24.jar:5.3.24]
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.handleMessage(ExceptionWebSocketHandlerDecorator.java:58) ~[spring-websocket-5.3.24.jar:5.3.24]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.handleTextMessage(StandardWebSocketHandlerAdapter.java:114) ~[spring-websocket-5.3.24.jar:5.3.24]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.access$000(StandardWebSocketHandlerAdapter.java:43) ~[spring-websocket-5.3.24.jar:5.3.24]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter$3.onMessage(StandardWebSocketHandlerAdapter.java:85) ~[spring-websocket-5.3.24.jar:5.3.24]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter$3.onMessage(StandardWebSocketHandlerAdapter.java:82) ~[spring-websocket-5.3.24.jar:5.3.24]
+	at org.apache.tomcat.websocket.WsFrameBase.sendMessageText(WsFrameBase.java:415) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.server.WsFrameServer.sendMessageText(WsFrameServer.java:129) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.WsFrameBase.processDataText(WsFrameBase.java:515) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:301) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:133) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:85) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:183) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:162) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:157) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:59) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+ at [Source: (String)"{
+  "type":"ENTER",
+  "roomId":"07a1b980-4b20-4bf1-b348-b73c87723f3a,
+  "sender":"cho",
+  "message":"asd"
+}"; line: 3, column: 51]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.base.ParserBase._throwUnquotedSpace(ParserBase.java:1110) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._finishString2(ReaderBasedJsonParser.java:2155) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._finishString(ReaderBasedJsonParser.java:2126) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.getText(ReaderBasedJsonParser.java:320) ~[jackson-core-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:41) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:11) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.12.3.jar:2.12.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:402) ~[jackson-databind-2.12.3.jar:2.12.3]
+	... 32 more
+2022-12-05 19:13:02  INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-05 19:13:02  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2022-12-05 19:13:02  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2022-12-05 19:13:10  INFO [com.wetrip.wetrip.WetripApplication] Starting WetripApplication using Java 11.0.15.1 on JUNYOUNGui-MacBookPro.local with PID 1696 (/Users/junyoungcho/Documents/Wetrip-server/build/classes/java/main started by junyoungcho in /Users/junyoungcho/Documents/Wetrip-server)
+2022-12-05 19:13:10  INFO [com.wetrip.wetrip.WetripApplication] No active profile set, falling back to 1 default profile: "default"
+2022-12-05 19:13:11  INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-05 19:13:11  INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2022-12-05 19:13:11  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+2022-12-05 19:13:11  INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1538 ms
+2022-12-05 19:13:12  INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-05 19:13:12  INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-05 19:13:12  INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-05 19:13:12  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-12-05 19:13:12  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-12-05 19:13:12  INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-05 19:13:13  INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-05 19:13:13  INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-05 19:13:13  WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-05 19:13:13  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-05 19:13:13  INFO [com.wetrip.wetrip.WetripApplication] Started WetripApplication in 3.819 seconds (JVM running for 4.995)
+2022-12-05 19:13:21  INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2022-12-05 19:13:21  INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
+2022-12-05 20:44:07 ERROR [org.springframework.web.socket.server.support.DefaultHandshakeHandler] "Handshake failed due to invalid Upgrade header: null"
+2022-12-05 21:30:00 ERROR [org.springframework.web.socket.server.support.DefaultHandshakeHandler] "Handshake failed due to invalid Upgrade header: null"
+2022-12-05 21:54:50  INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-05 21:54:50  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2022-12-05 21:54:50  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
