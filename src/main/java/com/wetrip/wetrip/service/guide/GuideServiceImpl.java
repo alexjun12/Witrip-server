@@ -20,7 +20,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class GuideServiceImpl implements GuideService{
     @Autowired
-    private final GuideRepository guideRepository;
+    private final GuideRepository guideRepository; // guide repository
 
     @Override
     public GuideSigninResponseDto signIn(GuideSigninRequestDto guideSigninRequestDto) {
